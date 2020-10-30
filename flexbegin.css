@@ -1,0 +1,59 @@
+.box {
+    display: flex;
+    height: 2.5cm;
+    
+    background-color:#584cc0;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+.box span {
+    font-size: 0.85cm;
+    color: white;
+        margin-right:5px;
+}
+input {
+    height: 1cm;
+    width: 5cm;
+    border-radius:10px; 
+}
+p {
+   font-size: 0.8cm;
+   padding-left: 5.0cm;
+   padding-top: 4.0cm;
+   color: #574fc1;
+}
+.box2 {
+    display: flex;
+    margin: 2.93cm 3cm 3cm 5cm;
+    height: 12cm;
+    width: 35cm;
+    background-color: #ffffff;
+        
+}
+.box2 .cex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.81cm;
+   
+}
+.box2 .sex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 30%;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 0.81cm;
+    margin:10px;
+}
+.sex span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10cm;
+    width: 5cm;
+}
+    
+
